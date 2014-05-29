@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap1.css" />
+    <title>Nguyễn Tuấn Anh</title>
+  </head>
+  <body>
+    <!-- NAVBAR
+        ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">Home</a>
+            
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Thời Sự</a></li>
+                <li><a href="http://getbootstrap.com/2.3.2/base-css.html">Twitter Bootstrap</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown" id="accountmenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thể Thao<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bóng Đá<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Ngoại Hạng Anh</a></li>
+                        <li><a href="#">Lali Ga</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quần Vợt <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Quần Vợt Nam</a></li>
+                        <li><a href="#">Quần Vợt Nứ</a></li>
+                        
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bóng Bàn<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Đơn Nam</a></li>
+                        <li><a href="#">Đơn Nữ</a></li>
+                        <li><a href="#">Đôi Nam</a></li>
+                        <li><a href="#">Đôi Nam Nữ</a></li>
+                        
+                      </ul>
+                    </li>
+                  </ul>
+                </li> <li><a href="#">Kinh Doanh</a></li>
+                </li> <li><a href="#">Giải Trí</a></li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Giới thiệu</h1>
+              <p class="lead">Cái này là giới thiệu nè !!!!</p>
+              <a class="btn btn-large btn-primary" href="#">Đăng ký ngay</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/slide-02.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Về chúng tôi</h1>
+              <p class="lead">Nguyễn Tuấn Anh</p>
+              <a class="btn btn-large btn-primary" href="#">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/slide-03.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Chương trình</h1>
+              <p class="lead">Design Global có sự hợp tác bởi các chuyên gia đầu ngành trên thế giới và tại Việt Nam trong các lĩnh vực Thiết kế và Công nghệ thông tin. </p>
+              <a class="btn btn-large btn-primary" href="#">Khám phá</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="img/browser-icon-firefox.png" />
+          <h2>Giới thiệu chung</h2>
+          <p>Design Global là Học viện đào tạo Công nghệ thông tin và Thiết kế uy tín số 1 tại Việt Nam.  Với môi trường học tập hiện đại, chuyên nghiệp và chương trình đào tạo tiên tiến, cập nhật thường xuyên theo nhu cầu doanh nghiệp, tạo động lực mạnh mẽ trong học tập cho các sinh viên. </p>
+          <p><a class="btn" href="http://designglobal.edu.vn/Gioi-thieu-chung-designglobal.html">Xem chi tiết &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="img/browser-icon-chrome.png" />
+          <h2>Design – Nghề thời thượng của giới trẻ</h2>
+          <p>Xuất hiện cùng rất nhiều ngành nghề đa dạng: thiết kế, kiến trúc, nhiếp ảnh, điện ảnh, thời trang,… với nhu cầu ngày càng tăng cao trong xã hội hiện đại, nghề design đang được các bạn trẻ ưu ái bầu chọn là nghề “hot”, nghề thời thượng.</p>
+          <p><a class="btn" href="http://designglobal.edu.vn/Design-%E2%80%93-Nghe-thoi-thuong-cua-gioi-tre.html">Xem chi tiết &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="img/browser-icon-safari.png" />
+          <h2>Lập Trình Mã Nguồn Mở</h2>
+          <p>Có muôn nẻo đường giúp các bạn trẻ “thân vinh”, có trăm ngả rẽ dẫn tới “thành La Mã”. Thời thượng, trí tuệ, thu nhập hấp dẫn, là những hình dung về nghề Lập trình viên – tâm điểm “cơn sốt” chọn nghề của những công dân thời đại @. </p>
+          <p><a class="btn" href="http://designglobal.edu.vn/Lap-Trinh-Ma-Nguon-Mo.html">Xem chi tiết &raquo;</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+
+
+      <hr/>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript ================================================== -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+    <script type="text/javascript" src="js/bootstrap.js" ></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
